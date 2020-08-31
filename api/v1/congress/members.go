@@ -22,7 +22,7 @@ type MemberResult struct {
 type Member struct {
 	Id              string `json:"id"`
 	Title           string `json:"title"`
-	ShortTitle      string `json:short_title"`
+	ShortTitle      string `json:"short_title"`
 	ApiUri          string `json:"api_uri"`
 	FirstName       string `json:"first_name"`
 	MiddleName      string `json:"middle_name"`
